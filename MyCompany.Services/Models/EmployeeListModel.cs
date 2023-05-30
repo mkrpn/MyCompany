@@ -1,4 +1,6 @@
-﻿namespace MyCompanyServices.Models
+﻿using MyCompany.Repository.Models;
+
+namespace MyCompany.Services.Models
 {
     public class EmployeeListModel
     {

@@ -1,9 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
-using MyCompanyServices.Models;
-using MyCompanyServices.Services;
+using MyCompany.Repository.Models;
+using MyCompany.Services;
+using MyCompany.Services.Models;
 
-namespace CompanyAPI.Controllers
+namespace MyCompany.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]

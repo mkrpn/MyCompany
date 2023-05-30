@@ -1,4 +1,4 @@
-﻿namespace MyCompanyServices.Models
+﻿namespace MyCompany.Repository.Models
 {
     public class EmployeeSalary
     {

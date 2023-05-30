@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCompanyApi", "Company\MyCompanyApi.csproj", "{229B233F-296F-47CD-806D-F650E955237B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCompany.Api", "MyCompany.Api\MyCompany.Api.csproj", "{229B233F-296F-47CD-806D-F650E955237B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCompanyServices", "MyCompanyServices\MyCompanyServices.csproj", "{2F2CFFD2-8841-483F-8472-F482972E3071}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCompany.Services", "MyCompany.Services\MyCompany.Services.csproj", "{2F2CFFD2-8841-483F-8472-F482972E3071}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MycompanyRepository", "MycompanyRepository\MycompanyRepository.csproj", "{0D203073-0192-4132-9F29-8BD4A56DC785}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mycompany.Repository", "MyCompany.Repository\Mycompany.Repository.csproj", "{0D203073-0192-4132-9F29-8BD4A56DC785}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCompanyUnitTests", "MyCompanyUnitTests\MyCompanyUnitTests.csproj", "{7ECEF097-8314-43A5-AD9B-23435ABD50DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCompany.UnitTests", "MyCompany.UnitTests\MyCompany.UnitTests.csproj", "{7ECEF097-8314-43A5-AD9B-23435ABD50DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

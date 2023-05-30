@@ -1,7 +1,6 @@
-﻿using MyCompanyServices.Models;
-using System.Linq;
+﻿using MyCompany.Repository.Models;
 
-namespace MycompanyRepository.Repositories
+namespace MyCompany.Repository
 {
     public class EmployeeRepository : IEmployeeRepository
     {
@@ -10,7 +9,7 @@ namespace MycompanyRepository.Repositories
             throw new NotImplementedException();
         }
 
-        public async Task<int> GetCountAsync(Employee model)
+        public async Task<int> GetCountAsync()
         {
             throw new NotImplementedException();
         }

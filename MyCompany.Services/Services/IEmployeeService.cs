@@ -1,6 +1,7 @@
-﻿using MyCompanyServices.Models;
+﻿using MyCompany.Repository.Models;
+using MyCompany.Services.Models;
 
-namespace MyCompanyServices.Services
+namespace MyCompany.Services
 {
     public interface IEmployeeService
     {
