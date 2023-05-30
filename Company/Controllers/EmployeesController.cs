@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using MyCompanyServices.Models;
 using MyCompanyServices.Services;
 
@@ -18,6 +19,8 @@ namespace CompanyAPI.Controllers
         }
 
         [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(EmployeeListModel))]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> GetAsync(int page, int pageSize)
         {
             try
@@ -33,8 +36,12 @@ namespace CompanyAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> PostAsync(Employee model)
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Employee))]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> PostAsync([BindRequired]Employee model)
         {
+            //TODO: Add properties validation for Employee
+
             try
             {
                 var employee = await service.CreateEmployee(model);

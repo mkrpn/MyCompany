@@ -1,6 +1,27 @@
-﻿namespace MyCompanyUnitTests.Api.Controllers
+﻿using Xunit;
+
+namespace MyCompanyUnitTests.Api.Controllers
 {
-    internal class EmployeesControllerTests
+    public class EmployeesControllerTests
     {
+        [Fact]
+        public void GetAsync_200Success()
+        {
+            //arrange
+            
+            //act
+
+            //assert
+        }
+
+        [Fact]
+        public void GetAsync_500Error()
+        {
+            //arrange
+
+            //act
+
+            //assert
+        }
     }
 }

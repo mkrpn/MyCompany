@@ -1,0 +1,15 @@
+CREATE TABLE `Employees` (
+	`ID` INT(20) AUTO_INCREMENT,
+	`FirstName` VARCHAR(50),
+	`LastName` VARCHAR(50),
+	`Address1` VARCHAR(200),
+	`TypeId` INT(20),
+	PRIMARY KEY (`ID`)
+);
+
+CREATE TABLE `EmployeeTypes` (
+	`ID` INT(20) AUTO_INCREMENT,
+	`Name` VARCHAR(20),
+	`MaxExpenseAmount` INT(20) DEFAULT NULL,
+	PRIMARY KEY (`ID`)
+);
